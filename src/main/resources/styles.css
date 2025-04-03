@@ -1,0 +1,72 @@
+.root {
+    -fx-base: #0a0a0a;
+    -fx-background: #0a0a0a;
+    -fx-text-fill: white;
+}
+
+/* Menu boczne */
+.side-menu {
+    -fx-background-color: #111;
+    -fx-padding: 20;
+    -fx-border-color: #dc143c;
+    -fx-border-width: 0 3 0 0;
+}
+
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+    -fx-alignment: center-left;
+    -fx-padding: 12;
+}
+
+.menu-button:hover {
+    -fx-background-color: #1a1a1a;
+    -fx-translate-x: 8;
+}
+
+.menu-button:active {
+    -fx-background-color: #dc143c;
+}
+
+/* Karty */
+.stat-card {
+    -fx-background-color: linear-gradient(to bottom right, #1a1a1a, #0a0a0a);
+    -fx-background-radius: 15;
+    -fx-border-color: #dc143c;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(gaussian, rgba(220, 20, 60, 0.3), 10, 0, 0, 0);
+}
+
+/* Przyciski */
+.form-button {
+    -fx-background-color: #dc143c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 25;
+    -fx-padding: 10 20;
+}
+
+.form-button:hover {
+    -fx-background-color: #a81030;
+    -fx-effect: dropshadow(gaussian, rgba(220, 20, 60, 0.5), 15, 0, 0, 0);
+}
+
+/* Tabele */
+.data-table {
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: #dc143c;
+    -fx-border-radius: 15;
+}
+
+.data-table .column-header {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+}
+
+.data-table .cell {
+    -fx-text-fill: white;
+    -fx-border-color: #333;
+}

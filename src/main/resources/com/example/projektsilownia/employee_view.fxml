@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <left>
+        <VBox styleClass="side-menu" prefWidth="250">
+            <Label text="Panel pracownika" style="-fx-text-fill: white; -fx-font-size: 18; -fx-font-weight: bold;"/>
+            <Button text="Pulpit" styleClass="menu-button"/>
+            <Button text="Rejestracja" styleClass="menu-button"/>
+            <Button text="Magazyn" styleClass="menu-button"/>
+            <Button text="Cennik" styleClass="menu-button"/>
+            <Button text="Harmonogram" styleClass="menu-button"/>
+        </VBox>
+    </left>
+    <center>
+        <TabPane styleClass="tab-pane">
+            <Tab text="Pulpit">
+                <!-- Zawartość pulpitu -->
+            </Tab>
+            <Tab text="Rejestracja">
+                <!-- Zawartość rejestracji -->
+            </Tab>
+            <!-- Pozostałe zakładki -->
+        </TabPane>
+    </center>
+</BorderPane>
