@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9da4da14-0989-4ac7-95fe-ba0accc55ad5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/ReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backlograporty/src/test/java/EmployeeDashboardControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/AdminDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/AdminDashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/AttendanceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/AttendanceData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/ClientDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/ClientDashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/EmployeeDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/EmployeeDashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/GoalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/GoalData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/IncomeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/IncomeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/ProgressData.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/ProgressData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/ScheduleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/ScheduleData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/TrainerDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/com/example/silowniaprojekt/TrainerDashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/admin_dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/admin_dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/admin_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/admin_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/client_dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/client_dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/employee_dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/employee_dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/employee_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/employee_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/trainer_dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/trainer_dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/trainer_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/main/resources/com/example/silowniaprojekt/trainer_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backlograporty/src/test/java/DatabaseConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty/src/test/java/DatabaseConnectionTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backlograporty" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2xeNX080FWWlPtiiAMKVaetkWYc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.EmployeeDashboardControllerTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Kondzik/IdeaProjects/backlograporty (18)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="EmployeeDashboardControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SilowniaProjekt" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmployeeDashboardControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeDashboardControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9da4da14-0989-4ac7-95fe-ba0accc55ad5" name="Changes" comment="" />
+      <created>1748294615094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748294615094</updated>
+      <workItem from="1748294616525" duration="8134000" />
+      <workItem from="1748303377479" duration="2331000" />
+      <workItem from="1748306175858" duration="1381000" />
+      <workItem from="1748307619209" duration="612000" />
+      <workItem from="1748696176030" duration="11207000" />
+      <workItem from="1748725351138" duration="633000" />
+      <workItem from="1748805515082" duration="9143000" />
+      <workItem from="1748864190777" duration="8771000" />
+      <workItem from="1748888723315" duration="4102000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
