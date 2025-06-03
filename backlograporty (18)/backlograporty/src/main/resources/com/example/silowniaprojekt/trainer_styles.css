@@ -1,0 +1,290 @@
+.root {
+    -fx-dark-bg: #0a0a0a;
+    -fx-darker-bg: #1a1a1a;
+    -fx-accent-color: #dc143c;
+    -fx-text-color: white;
+}
+
+.nav-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-color;
+    -fx-font-size: 14px;
+    -fx-padding: 12 15;
+    -fx-alignment: CENTER_LEFT;
+    -fx-cursor: hand;
+}
+
+.nav-btn:hover {
+    -fx-text-fill: -fx-accent-color;
+    -fx-border-color: -fx-accent-color;
+    -fx-border-width: 0 0 2 0;
+}
+
+.stats-card {
+    -fx-background-color: linear-gradient(to bottom right, #1a1a1a, #0a0a0a);
+    -fx-border-color: -fx-accent-color;
+    -fx-border-width: 2;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 20;
+    -fx-pref-width: 250;
+}
+
+.stats-header {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.stats-main {
+    -fx-text-fill: -fx-accent-color;
+    -fx-font-size: 32px;
+    -fx-padding: 10 0;
+}
+
+.stats-secondary {
+    -fx-text-fill: #008000;
+    -fx-font-size: 14px;
+}
+
+.action-btn {
+    -fx-background-color: -fx-accent-color;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 5;
+}
+
+.action-btn:hover {
+    -fx-background-color: #a81030;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: #333333;
+    -fx-border-color: #dc143c;
+    -fx-border-width: 1;
+}
+
+.table-view .column-header {
+    -fx-background-color: #dc143c;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #0a0a0a;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: white;
+    -fx-alignment: CENTER-LEFT;
+    -fx-padding: 10 5;
+}
+
+.status-present {
+    -fx-text-fill: #00ff00;
+}
+
+.status-absent {
+    -fx-text-fill: #ff0000;
+}
+
+.stack-pane, .vbox, .hbox {
+    -fx-background-color: #0a0a0a;
+}
+
+.client-card {
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: #dc143c;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+}
+
+.client-name {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.client-status-active {
+    -fx-text-fill: #00ff00;
+    -fx-font-style: italic;
+}
+
+.client-status-new {
+    -fx-text-fill: #ffa500;
+    -fx-font-style: italic;
+}
+
+.client-status-vip {
+    -fx-text-fill: #ffd700;
+    -fx-font-style: italic;
+}
+
+.client-progress .bar {
+    -fx-background-color: #dc143c;
+    -fx-padding: 2;
+}
+
+.client-progress .track {
+    -fx-background-color: #0a0a0a;
+}
+
+.client-progress-text {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.client-action-btn {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+    -fx-padding: 5 15;
+    -fx-background-radius: 3;
+}
+
+.client-action-btn:hover {
+    -fx-background-color: #dc143c;
+}
+
+.progress-combo {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+    -fx-pref-width: 200;
+}
+
+.progress-combo .list-cell {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+}
+
+/* Specyficzne style tylko dla tabeli harmonogramu */
+.schedule-table {
+    -fx-background-color: transparent;
+    -fx-border-color: #dc143c;
+    -fx-border-width: 1;
+    -fx-table-cell-border-color: #333333;
+}
+
+.schedule-table .column-header {
+    -fx-background-color: #dc143c;
+}
+
+.schedule-table .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.schedule-table .table-row-cell {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+}
+
+.schedule-table .table-row-cell:odd {
+    -fx-background-color: #0a0a0a;
+}
+
+.schedule-table .table-cell {
+    -fx-text-fill: white;
+    -fx-alignment: CENTER-LEFT;
+    -fx-padding: 10 5;
+}
+
+/* Opcjonalnie: Dostosuj scrollbar */
+.schedule-table .scroll-bar:vertical {
+    -fx-background-color: #1a1a1a;
+}
+
+.schedule-table .scroll-bar .thumb {
+    -fx-background-color: #dc143c;
+}
+
+
+.form-card {
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: #dc143c;
+    -fx-border-width: 1;
+    -fx-padding: 20;
+    -fx-border-radius: 5;
+}
+
+/* Dodatkowe style specyficzne dla pracownika */
+.service-request-card {
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: #dc143c;
+    -fx-border-width: 1;
+    -fx-padding: 15;
+}
+
+.equipment-status {
+    -fx-font-weight: bold;
+    -fx-text-fill: #dc143c;
+}
+
+.reservation-status-confirmed {
+    -fx-text-fill: #00ff00;
+}
+
+.reservation-status-pending {
+    -fx-text-fill: #ffa500;
+}
+/* Style dla sekcji klientów */
+.client-card {
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: #333;
+    -fx-border-radius: 5;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+    -fx-background-radius: 5;
+}
+
+.client-name {
+    -fx-text-fill: #dc143c;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+
+.client-status-new {
+    -fx-text-fill: #00ff00;
+    -fx-font-style: italic;
+}
+
+.client-progress {
+    -fx-accent: #dc143c;
+    -fx-pref-width: 200;
+}
+
+.client-action-btn {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+    -fx-padding: 5 15;
+    -fx-background-radius: 3;
+}
+
+.client-action-btn:hover {
+    -fx-background-color: #444;
+}
+
+/* Style dla dialogu */
+.dialog-pane {
+    -fx-background-color: #1a1a1a;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: white;
+}
+
+.dialog-pane .text-field {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+}

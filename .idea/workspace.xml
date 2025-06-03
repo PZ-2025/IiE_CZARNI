@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a87d9435-e177-469c-8ee5-87bd184e3e4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backlograporty (18)/backlograporty" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backlograporty (18)/backlograporty/src/main/java/com/example/silowniaprojekt/ReportGenerator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backlograporty (18)/backlograporty/src/test/java/EmployeeDashboardControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backlograporty (18)/backlograporty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty (18)/backlograporty/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backlograporty (18)/backlograporty/src/main/java/com/example/silowniaprojekt/AdminDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty (18)/backlograporty/src/main/java/com/example/silowniaprojekt/AdminDashboardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backlograporty (18)/backlograporty/src/main/java/com/example/silowniaprojekt/AttendanceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/backlograporty (18)/backlograporty/src/main/java/com/example/silowniaprojekt/AttendanceData.java" afterDir="false" />
@@ -51,20 +54,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Gabriel/Desktop/projektsilownia",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748939113409</updated>
       <workItem from="1748939116023" duration="320000" />
+      <workItem from="1748941529904" duration="671000" />
     </task>
     <servers />
   </component>

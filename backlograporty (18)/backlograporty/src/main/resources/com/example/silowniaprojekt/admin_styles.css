@@ -1,0 +1,290 @@
+.root {
+    -fx-background-color: #0a0a0a;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Arial";
+}
+
+/* Panel boczny */
+.side-menu {
+    -fx-background-color: #111111;
+    -fx-padding: 20px;
+    -fx-border-color: #dc143c;
+    -fx-border-width: 0 3 0 0;
+    -fx-pref-width: 250px;
+    -fx-spacing: 10px;
+}
+
+.menu-header {
+    -fx-text-fill: #dc143c;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 20 0;
+}
+
+.nav-item {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.nav-item:hover {
+    -fx-background-color: #1a1a1a;
+    -fx-translate-x: 5;
+}
+
+.nav-item:pressed {
+    -fx-background-color: #dc143c;
+    -fx-translate-x: 5;
+}
+
+/* Główna zawartość */
+.main-content {
+    -fx-background-color: #0a0a0a;
+    -fx-padding: 30px;
+}
+
+.section-title {
+    -fx-text-fill: #dc143c;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 20 0;
+}
+
+.dashboard-card {
+    -fx-background-color: #1a1a1a;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-border-color: #dc143c;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+}
+
+.card-title {
+    -fx-text-fill: #dc143c;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.stat-number {
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.stat-compare {
+    -fx-text-fill: #4CAF50;
+    -fx-font-size: 14px;
+}
+
+/* Tabele */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: #333333;
+    -fx-border-color: #dc143c;
+    -fx-border-width: 1;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #1a1a1a;
+}
+
+.table-view .column-header {
+    -fx-background-color: #dc143c;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #0a0a0a;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: white;
+    -fx-alignment: TOP_LEFT;
+    -fx-padding: 8 10;
+}
+
+/* Formularze */
+.form-container {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-border-color: #dc143c;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-color: #1a1a1a;
+    -fx-min-width: 300px;
+}
+.form-label { /* Zmieniono nazwę klasy na bardziej ogólną */
+    -fx-text-fill: white; /* Ustaw kolor tekstu na biały */
+    -fx-font-size: 10px; /* Domyślny rozmiar, możesz dostosować */
+    /* -fx-font-weight: bold;  <-- Usunięte pogrubienie, jeśli nie chcesz */
+}
+
+/* Style dla TextField, DatePicker i TextArea */
+.text-field, .date-picker, .text-area {
+    -fx-background-color: #333333;
+    -fx-text-fill: white; /* Tekst wpisywany przez użytkownika */
+    -fx-border-color: #dc143c;
+    -fx-border-width: 1;
+    -fx-border-radius: 3;
+    -fx-control-inner-background: #333333; /* Tło wewnątrz kontrolki */
+}
+
+/* NOWA REGUŁA: Styl dla promptText w TextField */
+.text-field .prompt-text {
+    -fx-fill: #aaaaaa; /* Jasnoszary kolor dla promptText */
+}
+
+/* Specyficzne style dla TextArea */
+.text-area {
+    -fx-font-size: 14px;
+    -fx-highlight-fill: #dc143c;
+    -fx-highlight-text-fill: white;
+    -fx-text-fill: white; /* Tekst wewnątrz TextArea */
+}
+
+/* Stylizacja paska przewijania w TextArea */
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .content {
+    -fx-background-color: transparent;
+}
+
+/* Styl dla samego ComboBoxa (część widoczna, gdy jest zwinięty) */
+.combo-box {
+    -fx-background-color: #333333;
+    -fx-text-fill: white; /* Tekst aktualnie wybrany w ComboBoxie */
+    -fx-border-color: #dc143c;
+    -fx-border-width: 1;
+    -fx-border-radius: 3;
+}
+
+/* Styl dla rozwijanej listy ComboBoxa (gdy jest otwarty) */
+.combo-box .list-cell {
+    -fx-text-fill: white; /* Tekst pozycji na liście rozwijanej */
+    -fx-background-color: #333333; /* Tło pozycji na liście */
+}
+
+/* Styl dla pozycji na liście rozwijanej po najechaniu myszką */
+.combo-box .list-cell:filled:hover {
+    -fx-background-color: #dc143c; /* Kolor tła po najechaniu */
+    -fx-text-fill: white; /* Kolor tekstu po najechaniu */
+}
+
+/* Styl dla strzałki rozwijanej ComboBoxa */
+.combo-box .arrow-button {
+    -fx-background-color: #dc143c; /* Kolor tła strzałki */
+    -fx-background-radius: 0 3 3 0; /* Zaokrąglone rogi tylko po prawej */
+}
+
+.combo-box .arrow-button .arrow {
+    -fx-background-color: white; /* Kolor samej strzałki */
+}
+
+/* Styl dla ComboBoxa, gdy ma focus */
+.combo-box:focused {
+    -fx-border-color: #dc143c;
+    -fx-background-color: #333333;
+}
+
+.action-button {
+    -fx-background-color: #dc143c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 15;
+    -fx-cursor: hand;
+    -fx-border-radius: 3;
+}
+
+.action-button:hover {
+    -fx-background-color: #aa102e;
+}
+
+/* Wykres */
+.chart {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: #333333;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: #333333;
+}
+
+.axis {
+    -fx-tick-label-fill: white;
+}
+
+.chart-series-line {
+    -fx-stroke: #dc143c;
+    -fx-stroke-width: 2px;
+}
+
+.raporttt{
+    -fx-text-fill: #dc143c;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.nav-item:focused {
+    -fx-background-color: #dc143c;
+    -fx-text-fill: white;
+}
+
+/* ... istniejące style ... */
+
+/* Podświetlanie wierszy tabeli po najechaniu */
+.table-view .table-row-cell:hover {
+    -fx-background-color: rgba(109, 13, 33, 0.8) !important;
+    -fx-text-fill: white !important;
+}
+
+/* Zapewnienie białego tekstu w komórkach */
+.table-view .table-row-cell:hover .table-cell {
+    -fx-text-fill: white !important;
+}
+
+/* Styl dla zaznaczonego wiersza */
+.table-view .table-row-cell:selected {
+    -fx-background-color: #95001d !important;
+    -fx-text-fill: white !important;
+}
+
+/* Styl dla zaznaczonego wiersza po najechaniu */
+.table-view .table-row-cell:selected:hover {
+    -fx-background-color: #aa102e !important;
+    -fx-text-fill: white !important;
+}
+
+/* Resetowanie kolorów dla wierszy parzystych/nieparzystych */
+.table-view .table-row-cell:odd:hover {
+    -fx-background-color: rgba(109, 13, 33, 0.8) !important;
+}
+
+.table-view .table-row-cell:even:hover {
+    -fx-background-color: rgba(109, 13, 33, 0.8) !important;
+}
